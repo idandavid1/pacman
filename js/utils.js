@@ -42,18 +42,6 @@ function hideShowElement(selectors, shouldOpen = true) {
     } 
 }
 
-function hideElement(selector) {
-    const el = document.querySelector(selector)
-    console.log('el:', el)
-    el.classList.add('hidden')
-}
-
-function showElement(selector) {
-    const el = document.querySelector(selector)
-    console.log(el);
-    el.classList.remove('hidden')
-}
-
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
     var color = '#';
