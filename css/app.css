@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.hidden {
+  display: none;
+}
+
+.left img {
+  transform: rotate(180deg);
+}
+
+.up img {
+  transform: rotate(270deg);
+}
+
+.down img {
+  transform: rotate(90deg);
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+
+button{
+  margin-top: 10px;
+  font-size: large;
+  height: 50px;
+  width: 150px;
+}
+
+.game-over {
+  margin: auto;
+  padding-top: 10px;
+  background-color: cornflowerblue;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+}
+h2 span{
+  color: blue;
+} 
+
